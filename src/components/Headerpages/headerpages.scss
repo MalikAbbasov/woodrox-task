@@ -1,0 +1,36 @@
+#header_pages {
+    max-width: 100vw;
+    min-height: 45vh;
+    background-image: url("https://preview.colorlib.com/theme/woodrox/img/banner/banner.jpg.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h1{
+            font-size: 43px;
+            color: white;
+            margin-bottom: 10px;
+        }
+        .links{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            a{
+                font-size: 27px;
+                color: white;
+                margin-right: 10px;
+                margin-left: 10px;
+            }
+            i{
+                font-size: 20px;
+                color: white;
+            }
+        }
+    }
+}

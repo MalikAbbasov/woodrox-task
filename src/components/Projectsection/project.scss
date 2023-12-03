@@ -1,0 +1,24 @@
+#prjct{
+    max-width: 100vw;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .container{
+        width: 1000px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h1{
+            font-size: 34px;
+            margin-bottom: 10px;
+        }
+        p{
+            max-width: 800px;
+            font-size: 18px;
+            text-align: center;
+            color: #777777;
+        }
+    }
+}
